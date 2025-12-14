@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apeiron | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-area">
+        <div class="logo-box"></div>
+        <a href="index.html" class="logo-text">Apeiron</a>
+      </div>
+
+      <nav class="main-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="products.html">Custom Products</a>
+        <a class="nav-link active" href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="section-subtitle">
+          Use email, our forms, or the quick message below to get in touch.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card">
+          <h2>Email</h2>
+          <p class="section-subtitle">
+            <a href="mailto:apeiron@gmail.com" class="strong-link">
+              apeiron@gmail.com (don't know if this email is right, please let us know)
+            </a>
+          </p>
+
+          <h2>Forms</h2>
+          <p class="section-subtitle">
+            Replace these links with a google form for custom ideas and a google form for feedback.
+          </p>
+
+          <div class="row">
+            <a class="btn btn-primary" href="#" target="_blank" rel="noopener">
+              Custom Order Form
+            </a>
+            <a class="btn" href="#" target="_blank" rel="noopener">
+              Feedback Form
+            </a>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <h2>Message</h2>
+          <p class="section-subtitle">
+            this isn't going to work but if you want us to do it let us know and we'll make it happen
+          </p>
+
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="6"
+              placeholder="Tell us what you want made..."
+              required
+            ></textarea>
+
+            <div class="row form-actions">
+              <button class="btn btn-primary" type="submit">Submit</button>
+              <button class="btn" type="button" id="clearBtn">Clear</button>
+            </div>
+
+            <p class="section-subtitle" id="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>GSMST Apeiron</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
